@@ -67,7 +67,7 @@ class BookMetadata(BaseModel):
 # Initialize LLM7 client
 # -----------------------------
 llm = ChatLLM7(
-    model="gpt-4.1-nano-2025-04-14",
+    model="gpt-o4-mini-2025-04-16",
     api_key='HXedu14+ImcnHY+OJWKVRwC3ZEQRDNtHUOY1PMuoSrCS/d6AP5M6qyWEoyE6/rkDxDBzZxKoAObT6OdTRQFZ9rbIdsOG02If84H2qJ041a/b80OtCwGAIr/X7Z+CGJtYPyPB23gz',
     temperature=0.0,
     max_tokens=500,
