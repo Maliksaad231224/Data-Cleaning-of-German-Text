@@ -1,0 +1,9 @@
+pandas
+langchain
+langchain-community
+openai
+langchain-experimental
+supabase
+python-dotenv
+langchain-llm7
+pydantic
