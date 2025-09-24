@@ -20,6 +20,7 @@ supabase_url: str = "https://qnoteszizovvkniijdwp.supabase.co"
 print(supabase_key )
 supabase: Client = create_client(supabase_url, supabase_key)
 df = pd.read_csv("chunk_0.csv")
+df.columns= df.columns.str.lower()
 df['volltext'] = df['volltext'].astype(str)
 
 # Create a regex pattern: match all punctuation except /
