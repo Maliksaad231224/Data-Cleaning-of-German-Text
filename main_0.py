@@ -261,7 +261,7 @@ for index, column in df.iterrows():
       response = supabase.from_("cleaning").insert(error_output).execute()
       continue
     
-    if index % 10 == 0 and index > 0:
+    if index > 0:
       try:
         cleaned_data = clean_nans(data_list)
         response = supabase.from_("auth_alle").upsert(cleaned_data).execute()
