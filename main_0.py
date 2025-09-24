@@ -246,7 +246,7 @@ for index, column in df.iterrows():
       output.update(metadata)
       pprint(output)
       data_list.append(output)
-      sleep(5)
+      sleep(2)
     except Exception as e:
       print(f"Error processing row {index}: {e}")
       error_output = safe_dict({
